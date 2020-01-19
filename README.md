@@ -1,2 +1,11 @@
-# Danki-Code
-Projetos da plataforma Danki Code
+# Projetos da plataforma Danki Code
+![dankicode](https://i.ibb.co/mTJ1LhW/danki-bg2.jpg)
+
+Repositório para apresentar os projetos desenvolvidos no curso.
+
+## Curso Front-End
+
+
+### Lista de Projetos:
+- [Formulário Simples e Responsivo](https://github.com/martins-rafael/Danki-Code/tree/master/Formul%C3%A1rio%20Simples%20e%20Responsivo).
+
