@@ -12,6 +12,10 @@ html, body {
     height: 100%;
 }
 
+.clear {
+    clear: both;
+}
+
 .center {
     width: 1200px;
     margin: 0 auto;
@@ -187,4 +191,14 @@ html, body {
     display: inline-block;
     padding: 10px 25px;
     text-align: justify;
+}
+
+.footer {
+    padding: 10px;
+    text-align: center;
+    border-top: 2px solid #888;
+}
+
+.footer p {
+    margin-top: 10px;
 }
