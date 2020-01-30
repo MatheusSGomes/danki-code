@@ -170,7 +170,8 @@ html, body {
     padding: 100px 2%;
 }
 
-.secao-2 h2 {
+.secao-2 h2,
+.secao-2 h3 {
     text-align: center;
     font-weight: bold;
 }
