@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 html,
@@ -21,7 +24,7 @@ body {
 
 header {
     background-color: #d6d6d6;
-    padding: 10px 2% 30px 2%;
+    padding: 10px 2% 40px 2%;
 }
 
 .logo-1 {
@@ -60,10 +63,13 @@ header {
     float: right;
     position: relative;
     top: -5%;
+    z-index: 2;
     margin-right: 40px;
     width: 400px;
     height: 110%;
     background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px 1px rgba(0,0,0,0.4);
 }
 
 .form-container h2 {
@@ -72,6 +78,7 @@ header {
     font-size: 18px;
     color: #000;
     background-color: rgb(234, 236, 239);
+    border-radius: 5px 5px 0 0;
 }
 
 .form-container form {
@@ -100,6 +107,7 @@ header {
     height: 45px;
     line-height: 45px;
     border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
 .form-container form input[type=submit] {
@@ -110,7 +118,32 @@ header {
     color: #fff;
     background-color: #033c50;
     border: 0;
+    border-radius: 5px;
     cursor: pointer;
+}
+
+.chamada {
+    display: inline-block;
+    position: relative;
+    top: -50px;
+    z-index: 1;
+    width: 100%;
+    text-align: center;
+}
+
+.chamada .container {
+    padding: 50px 0;
+    background-color: #d4d4d4;
+
+}
+
+.chamada h2 {
+    display: inline-block;
+    width: 100%;
+    max-width: 600px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: normal;
 }
 
 @media screen and (max-width: 510px) {
