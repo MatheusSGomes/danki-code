@@ -235,6 +235,7 @@ html, body {
         max-width: 400px;
         height: 100%;
         top:0;
+        text-align: left;
     }
 
     .input-container input[type=text] {
