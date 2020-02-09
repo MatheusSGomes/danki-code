@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap');
 
 * {
     margin: 0;
@@ -18,11 +18,14 @@ body {
     max-width: 1280px;
 }
 
+.clear {
+    clear: both;
+}
+
 header {
     padding: 40px 2%;
     width: 100%;
     height: 90vh;
-    max-height: 700px;
     background-image: url(../images/cover.png);
     background-size: cover;
     background-position: center;
@@ -43,6 +46,11 @@ header nav ul li {
     padding: 0 20px;
 }
 
+header nav ul li:first-of-type {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
 header nav ul li a {
     text-decoration: none;
     color: #fff;
@@ -51,7 +59,7 @@ header nav ul li a {
 .chamada-01 {
     margin: 140px 150px;
     max-width: 600px;
-   float: right;
+    float: right;
 }
 
 .chamada-01 h2 {
@@ -63,4 +71,56 @@ header nav ul li a {
     margin-top: 10px;
     font-size: 15px;
     color: #fff;
+}
+
+.section-01 {
+    padding: 0 2%;
+    width: 100%;
+    background-color: #472562;
+}
+
+.section-01 .container {
+    max-width: 1000px;
+}
+
+.section-01-texto {
+    float: left;
+    width: 50%;
+    color: #fff;
+}
+
+.section-01-texto p {
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.section-01-texto ul {
+    font-size: 13px;
+    list-style-position: inside;
+}
+
+.section-01-texto ul li {
+    float: left;
+    width: 100%;
+}
+
+.btn-01 {
+    margin-top: 10px;
+    width: 165px;
+    height: 44px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #ff703d;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.section-01-device {
+    float: left;
+    width: 50%;
+    height: 300px;
+    background-image: url(../images/device.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
 }
