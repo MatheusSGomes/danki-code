@@ -26,6 +26,7 @@ header {
     padding: 40px 2%;
     width: 100%;
     height: 90vh;
+    min-height: 800px;
     background-image: url(../images/cover.png);
     background-size: cover;
     background-position: center;
@@ -36,7 +37,43 @@ header {
     float: left;
 }
 header nav.mobile-menu {
+    float: right;;
     display: none;
+    width: 32px;
+    height: 32px;
+    background-image: url(../images/menu.png);
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+header nav.mobile-menu ul {
+    position: absolute;
+    left: 0;
+    top: 80px;
+    width: 100%;
+    list-style: none;
+    text-align: center;
+    background-color: #f5f5f5;
+    opacity: 0;
+    transition: 1s;
+}
+
+header nav.mobile-menu:hover ul {
+    opacity: 0.9;
+}
+
+header nav.mobile-menu ul li {
+    padding: 8px 0;
+    transition: 0.5s;
+    border-bottom: 1px solid #000;
+}
+header nav.mobile-menu ul li:hover {
+    background-color: #ddd;
+}
+
+header nav.mobile-menu ul li a {
+    text-decoration: none;
+    color: #000;
 }
 
 header nav.desktop-menu ul {
@@ -60,7 +97,7 @@ header nav.desktop-menu ul li a {
 }
 
 .chamada-01 {
-    margin: 140px 150px;
+    margin: 200px 150px;
     max-width: 600px;
     float: right;
 }
@@ -140,6 +177,48 @@ header nav.desktop-menu ul li a {
     background-size: 100% 100%;
 }
 
+.section-02.container {
+    max-width: 1000px;
+}
+
+.section-02 {
+    padding: 0 2%;
+    background-color: #fff;
+    text-align: center;
+}
+
+.section-02 h2 {
+    color: #472562;
+}
+
+.section-02 p {
+    display: inline-block;
+    margin-top: 30px;
+    max-width: 900px;
+    color: #472562;
+}
+
+.section-02 img {
+    width: 100%;
+    margin-top: 40px;
+}
+
+@media screen and (max-width: 830px) {
+    
+    .chamada-01 {
+        float: none;
+        margin: 170px 0;
+        width: 100%;
+        max-width: none;
+        text-align: center;
+    }
+    
+    .chamada-01 h2 {
+        font-size: 30px;
+    }
+
+}
+
 @media screen and (max-width: 768px) {
 
     header {
@@ -151,17 +230,10 @@ header nav.desktop-menu ul li a {
         display: none;
     }
 
-    .chamada-01 {
-        float: none;
-        margin: 150px 0;
-        width: 100%;
-        max-width: none;
-        text-align: center;
+    header nav.mobile-menu {
+        display: block;
     }
 
-    .chamada-01 h2 {
-        font-size: 30px;
-    }
 
     .section-01 {
         padding: 40px 2%;
@@ -190,5 +262,9 @@ header nav.desktop-menu ul li a {
 
     .section-01-device {
         display: none;
+    }
+
+    .section-02 {
+        padding-top: 40px;
     }
 }
