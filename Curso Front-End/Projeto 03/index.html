@@ -11,7 +11,7 @@
 
 <body>
 
-    <header>
+    <header id="home">
         <div class="container">
 
             <div class="logo"><img src="images/logo.png" alt="logo Danki Code"></div>
@@ -29,10 +29,10 @@
 
             <nav class="desktop-menu">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Serviços</a></li>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Contato</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contato">Contato</a></li>
                 </ul>
             </nav>
 
@@ -50,7 +50,7 @@
         </div>
     </header>
 
-    <section class="section-01">
+    <section class="section-01" id="servicos">
         <div class="container">
             <div class="section-01-texto">
                 <h2>Desenvolvemos Sistemas Únicos</h2>
@@ -71,7 +71,7 @@
         </div>
     </section>
 
-    <section class="section-02">
+    <section class="section-02" id="sobre">
         <div class="container">
             <h2>Desenvolvido de pessoas para pessoas</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor minus est nam esse deleniti nemo ducimus
@@ -121,7 +121,7 @@
         <div class="clear"></div>
     </section>
 
-    <section class="section-04">
+    <section class="section-04" id="contato">
         <div class="container">
             <div class="form">
                 <h2>Entre em contato</h2>
@@ -132,10 +132,10 @@
                 <form action="">
                     <input type="text" name="nome" placeholder="*Nome">
                     <input type="text" name="email" placeholder="*E-mail">
-                    <textarea name="mensagem" placeholder="Mensagem"></textarea>
-                    
+                    <textarea name="mensagem" placeholder="*Mensagem"></textarea>
+
                     <div class="clear"></div>
-                    
+
                     <input type="submit" value="Enviar">
                 </form>
             </div>
@@ -144,7 +144,12 @@
                 <h2>Faça uma visita</h2>
                 <div class="wraper-map-02">
                     <div class="wraper-map-03">
-                        <div id="map" class="map"></div>
+                        <div id="map" class="map">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3536.220399109488!2d-48.54786028561208!3d-27.586695782842046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9527381658289e3b%3A0x98c2b7ad07252d1a!2sR.%20Rafael%20Bandeira%20-%20Centro%2C%20Florian%C3%B3polis%20-%20SC%2C%2088010-400!5e0!3m2!1spt-BR!2sbr!4v1581723953956!5m2!1spt-BR!2sbr"
+                                width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="">
+                            </iframe>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -152,6 +157,11 @@
             <div class="clear"></div>
         </div>
     </section>
+
+    <footer>
+        <p>Todos os direitos reservados.</p>
+        <p>lorem@ipsum.com</p>
+    </footer>
 
 </body>
 
