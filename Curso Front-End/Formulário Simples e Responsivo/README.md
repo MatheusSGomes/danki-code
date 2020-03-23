@@ -1,5 +1,16 @@
-## Formulário Simples e Responsivo
-Formulário desenvolvido com HTML5 e CSS3.
+<h1 align="center">
+<br>
+Formulário
+<br>
+<br>
+  <img src="screenshot.png" alt="screenshot" >
+</h1>
 
-### Screenshot
-![mockup](https://i.ibb.co/hXnftKm/formulario-mockup.png)
+## :rocket: Sobre
+
+Formulário simples e responsivo.
+
+## :computer: Tecnologias
+- [HTML](https://devdocs.io/html/)
+- [CSS](https://devdocs.io/css/)
+- [Responsive Web Design](https://www.w3schools.com/html/html_responsive.asp)

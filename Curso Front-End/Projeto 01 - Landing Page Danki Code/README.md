@@ -1,5 +1,16 @@
-## Projeto 01
-Landing Page responsiva, desenvolvida com HTML5 e CSS3.
+<h1 align="center">
+<br>
+Projeto 01
+<br>
+<br>
+  <img src="screenshot.png" alt="screenshot" >
+</h1>
 
-### Screenshot
-![mockup](https://i.ibb.co/y6QGkdD/projeto1mockup.png)
+## :rocket: Sobre
+
+Primeiro projeto desenvolvido no curso, Landing Page Danki Code.
+
+## :computer: Tecnologias
+- [HTML](https://devdocs.io/html/)
+- [CSS](https://devdocs.io/css/)
+- [Responsive Web Design](https://www.w3schools.com/html/html_responsive.asp)

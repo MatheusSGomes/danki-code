@@ -1,10 +1,27 @@
-## Projeto 04
-Landing Page responsiva, desenvolvida com HTML5 e CSS3.
+<h1 align="center">
+<br>
+Projeto 04
+<br>
+<br>
+  <img src="screenshot-01.png" alt="screenshot" >
+</h1>
 
-### Screenshots
-![mockup](https://i.ibb.co/25zT8KJ/projeto4-mockup-01.png)
-![mockup](https://i.ibb.co/D12DbFD/projeto4-mockup-02.png)
-![mockup](https://i.ibb.co/Wy5jphv/projeto4-mockup-03.png)
-![mockup](https://i.ibb.co/0cqdfK1/projeto4-mockup-04.png)
-![mockup](https://i.ibb.co/S0Cp14p/projeto4-mockup-05.png)
-![mockup](https://i.ibb.co/2Z9FsjF/projeto4-mockup-06.png)
+## :rocket: Sobre
+
+Quarto projeto desenvolvido no curso, Landing Page Denstista.
+
+## :computer: Tecnologias
+- [HTML](https://devdocs.io/html/)
+- [CSS](https://devdocs.io/css/)
+- [Responsive Web Design](https://www.w3schools.com/html/html_responsive.asp)
+
+### :camera: Mais screenshots
+
+<h1 align="center">
+<br>
+  <img src="screenshot-02.png" alt="screenshot" >
+  <img src="screenshot-03.png" alt="screenshot" >
+  <img src="screenshot-04.png" alt="screenshot" >
+  <img src="screenshot-05.png" alt="screenshot" >
+  <img src="screenshot-06.png" alt="screenshot" >
+</h1>
