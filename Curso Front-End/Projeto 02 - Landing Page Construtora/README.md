@@ -3,14 +3,13 @@
 Projeto 02
 <br>
 <br>
-  <img src="screenshot.png" alt="screenshot" >
+  <img src=".github/screenshot.png" alt="screenshot" >
 </h1>
 
 ## :rocket: Sobre
 
-Segundo projeto desenvolvido no curso, Landing Page Construtora Cena.
+Segundo projeto do curso, com o objetivo de colocar em prática o conteúdo aprendido.
 
 ## :computer: Tecnologias
 - [HTML](https://devdocs.io/html/)
 - [CSS](https://devdocs.io/css/)
-- [Responsive Web Design](https://www.w3schools.com/html/html_responsive.asp)
