@@ -71,6 +71,8 @@ header nav.mobile-menu ul li:hover {
 }
 
 header nav.mobile-menu ul li a {
+    display: inline-block;
+    width: 100%;
     text-decoration: none;
     color: #000;
 }

@@ -61,7 +61,7 @@ nav.mobile-menu ul {
 }
 
 nav.mobile-menu ul li {
-    padding: 10px 0;
+    padding: 16px 0;
     text-transform: uppercase;
 }
 
@@ -82,6 +82,8 @@ nav.desktop-menu ul li {
 }
 
 header nav ul li a {
+    display: inline-block;
+    width: 100%;
     text-decoration: none;
     color: #b4b4b4;
 }
